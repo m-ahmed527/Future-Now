@@ -1,0 +1,267 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* zia css start */
+@font-face {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url(/assets/fonts/SEGOEUI.TTF);
+}
+.main-wrapper{
+    background-color: #FFFBFA;
+    padding:39px 0;
+    position: relative;
+}
+
+.auth-wrapper {
+    width: 92%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 85px 2px wheat;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.auth-rapper
+, .auth-left{
+    border-radius: 20px;
+}
+.auth-left{
+    background-color: #FFF;
+    padding: 38px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-img {
+    margin-top: 128px;
+}
+.auth-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 38px 40px;
+}
+.auth-right h1{
+    color: #212529;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.auth-right p{
+    font-size: 19px;
+    color: #575E64;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.auth-form .email label {
+    display: block;
+    position: absolute;
+    left: 25px;
+    font-size: 25px;
+    top: 10px;
+    font-size: 14px;
+    color: #575E64;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.auth-form .email{
+position: relative;
+}
+.auth-form input#email {
+    width: 95%;
+    padding-top: 24px;
+    height: 61px;
+    padding-left: 12px;
+    border: 1px solid #CED4DA;
+    border-radius: 3px;
+    color: #212529;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.auth-form input#email:focus .email label{
+    display: none;
+} 
+.auth-form{
+    text-align: center;
+}
+.auth-form input#password{
+    width: 95%;
+    height: 50px;
+    padding-left: 7px;
+    border: 1px solid #CED4DA;
+    border-radius: 3px;
+    color:  black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.check{
+    font-size: 16px;
+    color: #575E64;
+    font-family: 'Segoe UI';
+}
+.form-options{
+    width: 95%;
+    color: #575E64;
+}
+.form-options a{
+    font-size: 16px;
+    color: #F54E82;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.check input{
+    margin-right: 5px;
+}
+.form-options{
+    margin: 14px auto;
+}
+.auth-btn{
+    background: #F54E82;
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #F54E82;
+    color: white;
+    font-size: 17px;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.br{
+    padding: 32px 0;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    color:  #6B7983;
+    font-family: 'Segoe UI';
+}
+.br::after {
+    content: "";
+    width: 250px;
+    height: 1px;
+    background-color:  #6B7983;
+    display: block;
+    position: absolute;
+    left: 31px;
+    top: 45px;
+    text-align: center;
+}
+.br::before {
+    content: "";
+    width: 250px;
+    height: 1px;
+    background-color: #6B7983;
+    display: block;
+    position: absolute;
+    right: 31px;
+    top: 45px;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+.signIn-opts p{
+    color: #575E64;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.icons i{
+        height: 50px;
+        width: 50px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 19px;
+        border: 1px solid #CED4DA;
+        text-decoration: none;
+}
+.icons a{
+    text-decoration: none;
+}
+.fa-linkedin-in{
+    color: #1976D2;
+}
+.fa-twitter{
+    color: #03A9F4;
+}
+.fa-facebook-f{
+    color:#1976D2 ;
+}
+.fa-google{
+    color: #EB4335;
+}
+.signIn-opts a{
+    margin-top: 40px;
+    text-decoration: none;
+}
+.forget .auth-left {
+    height: 500px;
+    justify-content: flex-start;
+}
+.signIn-opts {
+    padding-bottom: 60px;
+}
+.skip p{
+        text-align: end;
+        padding: 30px;
+        font-size: 20px;
+    color: #F54E82;
+    cursor: pointer;
+
+}
+.main-wrapper::before {
+    content: "";
+    background-image: url(../images/login-page-before.png);
+    position: absolute;
+    top: -33px;
+    left: -56px;
+    padding: -1px;
+    border-radius: 54%;
+    height: 214px;
+    width: 171px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main-wrapper::after {
+    content: "";
+    background-image: url(../images/right-after.png);
+    position: absolute;
+    top: -79px;
+    right: 5px;
+    padding: -1px;
+    border-radius: 54%;
+    height: 279px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.auth-wrapper::before {
+    content: "";
+    background-image: url(../images/bootom-after.png);
+    position: absolute;
+    bottom: -38px;
+    left: -68px;
+    padding: -1px;
+    border-radius: 0;
+    height: 208px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+/* zia css end */
+
+
